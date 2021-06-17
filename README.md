@@ -9,6 +9,5 @@
 #### ```nodemon ./index.js```
 
 ### Then start the Live Server for the HTML file by using the Live Server Extension on Visual Studio Code 
-</br>
 
 ### Enter name and iChatApp will start working!
