@@ -4,6 +4,10 @@
 
 #### ```npm install nodemon -g```
 
+### You can directly add all dependencies by in the project directory
+
+#### ```npm install```
+
 ### Then go to the **nodeServer** folder and run the command to start the Node server
 
 #### ```nodemon ./index.js```
