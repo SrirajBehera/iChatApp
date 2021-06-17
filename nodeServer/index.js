@@ -6,6 +6,7 @@ const users = {}
 io.on('connection', socket =>{
     // if any new user joins, let other users connected to the server know
     socket.on('new-user-joined', name =>{
+        console.log("Joined")
         users[socket.id] = name
         socket.broadcast.emit("user-joined", name) // will tell others that this user has joined the chat
     })
